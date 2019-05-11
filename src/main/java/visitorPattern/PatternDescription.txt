@@ -1,0 +1,11 @@
+Visitor design pattern is one of the behavioral design patterns.
+It is used when we have to perform an operation on a group of similar kind of Objects.
+With the help of visitorPattern pattern, we can move the operational logic from the objects to another class.
+
+Advantages :
+If the logic of operation changes, then we need to make change only in the visitorPattern implementation rather than doing it in all the item classes.
+Adding a new item to the system is easy, it will require change only in visitorPattern interface and implementation and existing item classes will not be affected.
+
+Disadvantages :
+We should know the return type of visit() methods at the time of designing otherwise we will have to change the interface and all of its implementations.
+If there are too many implementations of visitorPattern interface, it makes it hard to extend.
