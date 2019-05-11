@@ -1,5 +1,10 @@
 package main;
 
+import bridgePattern.abstractions.AirPlane;
+import bridgePattern.abstractions.FighterJet;
+import bridgePattern.abstractions.SingleProp;
+import bridgePattern.implementation.StageOneProduction;
+import bridgePattern.implementation.StageTwoProduction;
 import visitorPattern.Book;
 import visitorPattern.Shopper;
 
@@ -28,6 +33,15 @@ public class Main {
 
 
         System.out.println("Bridge Pattern Section \n");
+        AirPlane planeOne = new FighterJet(new StageOneProduction(), new StageTwoProduction());
+        planeOne.produce();
+
+        System.out.println();
+
+        AirPlane planeTwo = new SingleProp(new StageOneProduction(), new StageTwoProduction());
+        planeTwo.produce();
+        System.out.println("\nEnd of Bridge Section. \n");
+
 
     }
 }
