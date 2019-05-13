@@ -1,4 +1,6 @@
-package visitorPattern;
+package visitorPattern.acceptors;
+import visitorPattern.visitors.Visit;
+
 import java.util.Random;
 
 public class Book implements Accept {
