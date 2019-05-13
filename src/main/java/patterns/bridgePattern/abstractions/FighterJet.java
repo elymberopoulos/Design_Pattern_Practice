@@ -1,6 +1,6 @@
-package bridgePattern.abstractions;
+package patterns.bridgePattern.abstractions;
 
-import bridgePattern.implementation.Manufacturer;
+import patterns.bridgePattern.implementation.Manufacturer;
 
 public class FighterJet extends AirPlane {
 

@@ -1,5 +1,5 @@
-package visitorPattern.acceptors;
-import visitorPattern.visitors.Visit;
+package patterns.visitorPattern.acceptors;
+import patterns.visitorPattern.visitors.Visit;
 
 import java.util.Random;
 

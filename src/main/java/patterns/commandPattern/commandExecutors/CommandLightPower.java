@@ -1,6 +1,6 @@
-package commandPattern.commandExecutors;
+package patterns.commandPattern.commandExecutors;
 
-import commandPattern.devices.Light;
+import patterns.commandPattern.devices.Light;
 
 public class CommandLightPower implements Command {
 

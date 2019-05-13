@@ -1,5 +1,5 @@
-package bridgePattern.abstractions;
-import bridgePattern.implementation.Manufacturer;
+package patterns.bridgePattern.abstractions;
+import patterns.bridgePattern.implementation.Manufacturer;
 
 /*
 This is the main abstraction for the bridge design pattern.

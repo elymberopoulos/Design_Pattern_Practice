@@ -1,4 +1,4 @@
-package bridgePattern.implementation;
+package patterns.bridgePattern.implementation;
 
 public class StageTwoProduction implements Manufacturer {
 

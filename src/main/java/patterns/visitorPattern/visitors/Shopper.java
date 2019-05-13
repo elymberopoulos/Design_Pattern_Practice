@@ -1,6 +1,6 @@
-package visitorPattern.visitors;
+package patterns.visitorPattern.visitors;
 
-import visitorPattern.acceptors.Accept;
+import patterns.visitorPattern.acceptors.Accept;
 
 import java.util.ArrayList;
 import java.util.List;

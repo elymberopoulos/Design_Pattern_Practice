@@ -1,4 +1,4 @@
-package commandPattern.commandExecutors;
+package patterns.commandPattern.commandExecutors;
 
 public interface Command {
 

@@ -1,14 +1,14 @@
 package patternRunner;
 
-import bridgePattern.abstractions.AirPlane;
-import bridgePattern.abstractions.FighterJet;
-import bridgePattern.abstractions.SingleProp;
-import bridgePattern.implementation.StageOneProduction;
-import bridgePattern.implementation.StageTwoProduction;
-import commandPattern.commandExecutors.CommandLightPower;
-import commandPattern.devices.Light;
-import visitorPattern.acceptors.Book;
-import visitorPattern.visitors.Shopper;
+import patterns.bridgePattern.abstractions.AirPlane;
+import patterns.bridgePattern.abstractions.FighterJet;
+import patterns.bridgePattern.abstractions.SingleProp;
+import patterns.bridgePattern.implementation.StageOneProduction;
+import patterns.bridgePattern.implementation.StageTwoProduction;
+import patterns.commandPattern.commandExecutors.CommandLightPower;
+import patterns.commandPattern.devices.Light;
+import patterns.visitorPattern.acceptors.Book;
+import patterns.visitorPattern.visitors.Shopper;
 
 public class PatternRunner {
 
@@ -28,8 +28,8 @@ public class PatternRunner {
 
     public void RunVisitorPattern(){
         /*
-        This is work for the visitorPattern design pattern. It is a simple example.
-        The customer is able to 'visit' a book which accepts the visitorPattern.
+        This is work for the patterns.visitorPattern design pattern. It is a simple example.
+        The customer is able to 'visit' a book which accepts the patterns.visitorPattern.
         When the customer is accepted the book price is returned.
         The price is inserted into the shoppin cart array in the visit method.
          */

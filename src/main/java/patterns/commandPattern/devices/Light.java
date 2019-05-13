@@ -1,4 +1,4 @@
-package commandPattern.devices;
+package patterns.commandPattern.devices;
 
 public class Light {
 
